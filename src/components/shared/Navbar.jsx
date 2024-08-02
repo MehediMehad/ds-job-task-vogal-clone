@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="hidden md:block">
                         <div className="flex ">
                             <div className="flex">
-                                <p className=''>img</p>
+                                <p className=''>🏳️‍🌈</p>
                                 <p>English</p>
                             </div>
                             <div className="">
@@ -47,14 +47,14 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow uppercase">
+                            class="menu menu-sm dropdown-content bg-base-100 z-[1] mt-3 w-52 p-2 shadow uppercase">
                             <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/'}>Home</Link></p>
                             <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/shop'}>Shop</Link></p>
                             <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>Products</Link></p>
                             <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>Features</Link></p>
                             <div className="relative py-5 px-[15px]">
                                 <p className='hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>DEAL ZONE</Link></p>
-                                <IoMdArrowDropright className='absolute top-[7px] left-[44%] text-[#ed8f0c] text-2xl'></IoMdArrowDropright>
+                                <IoMdArrowDropright className='absolute top-[7px] left-[26%] text-[#ed8f0c] text-2xl'></IoMdArrowDropright>
                                 <small className='absolute bg-[#ed8f0c] text-white top-1 left-2 px-2 ml-12 h-4 rounded-sm'>HOT</small>
                             </div>
                             <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>Pages</Link></p>
@@ -73,7 +73,7 @@ const Navbar = () => {
                     <div className="relative py-5 px-[15px]">
                         <p className=' hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>DEAL ZONE</Link></p>
                         <IoMdArrowDropright className='absolute top-[7px] left-[44%] text-[#ed8f0c] text-2xl'></IoMdArrowDropright>
-                        <small className='absolute bg-[#ed8f0c] text-white top-1 left-2 px-2 ml-12 h-4 rounded-sm'>HOT</small>
+                        <small className='absolute bg-[#ed8f0c] text-white top-1 left-[2px] px-2 ml-12 h-4 rounded-sm text-[10px] font-medium'>HOT</small>
                     </div>
                     <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>Pages</Link></p>
                     <p className='py-5 px-[15px] hover:text-[#4eb370] font-links hover:font-semibold'><Link href={'/#'}>Blog</Link></p>

@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from '../shared/Navbar';
+import Banner from '../Banner';
 
 const HomePage = () => {
     return (
-        <div className='bg-red-300 h-screen'>
-            Home 
+        <div>
+            <Banner></Banner>
+
         </div>
     );
 };
